@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --ff-heading: 'Epilogue', sans-serif;
+    --ff-texting: 'Open sans', sans-serif;
+
+    --bg-primary: hsl(237, 22%, 20%);
+    --fc-primary: hsl(250, 0%, 100%);
+    --fc-secondary: hsl(250, 50%, 80%);
+    --fc-secondary-dark: hsl(250, 100%, 11%) ;
+    --bg-primary: #28293E;
+
+    font-size: 62.5%;
+    --fs-body: 1.6rem;
+    --fs-heading: clamp(4rem, 1rem + 5vw, 5.6rem);
+    --fs-heading-sm: clamp(3rem, 0.5rem + 3vw, 4rem);
+}
+
+body{
+    margin: 10rem 0 8rem;
+    font-family: var(--ff-texting);
+    background-color: var(--bg-primary);
+    color: var(--bg-primary);
+    font-size: var(--fs-body);
+}
+
+.page{
+    max-width: 98.4rem;
+    margin: 0 auto;
+    background-color: #33ccff;
+}
+
+/* Table Styles */
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.fl-table td, .fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #4FC3A1;
+}
+
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #324960;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #F8F8F8;
+}
+
+td{
+    border-bottom: 1px solid #324960;
+    padding-top: 60rem;
+}
