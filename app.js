@@ -17,9 +17,33 @@ let lab_automacao = new Sala("3","lab_automacao","Laboratório de Automação", 
 let lab_biologia = new Sala("4","lab_biologia","Laboratório de Biologia", 2, 1);
 let lab_cad = new Sala("5","lab_cad","Laboratório de CAD", 1, 1);
 let lab_cnc = new Sala("6","lab_cnc","Laboratório de CNC", 1, 1);
+let lab_electronica = new Sala("7", "lab_electronica","Laboratório de Electrónica",1,1);
+let lab_energias_re = new Sala("8", "lab_energias_re","Laboratório de Energias Renováveis",1,1);
+let lab_fisica = new Sala("9", "lab_fisica", "Laboratório de Física", 1,1);
+let lab_frio_clima = new Sala("10", "lab_frio_clima", "Laboratório de Frio e Climatizaçao", 1,1);
+let lab_insta_electrica = new Sala("11", "lab_insta_electrica", "Laboratório de Instalações Electricas", 1,1);
+let lab_maquinas_electricas = new Sala("12", "lab_maquinas_electricas","Laboratório de Máquinas Electricas",1,1);
+let lab_metalomecanica = new Sala("13", "lab_metalomecanica", "Laboratório de Metalomecânica", 1,1);
+let lab_quimica = new Sala("14", "lab_quimica", "Laboratório de Química", 1,1);
+let lab_telecomunicacoes = new Sala("15", "lab_telecomunicacoes", "laboratório de Telecomunicacoes", 1,1);
+let oficina_contru_mecanicas = new Sala("16", "oficina_contru_mecanicas", "Oficinas de Construções Mecânicas", 1,1);
+let oficina_maquinas_motores = new Sala("17", "oficina_maquinas_motores", "Oficinas de Máquinas e Motores", 1,1);
+let oficina_soldadura = new Sala("18", "oficina_soldadura", "Oficinas de Soldadura", 1,1);
 
 let salas = new Array(sala_teorica, lab_automacao, lab_informatica, lab_biologia, lab_cad);
 salas.push(lab_cnc);
+salas.push(lab_electronica);
+salas.push(lab_energias_re);
+salas.push(lab_fisica);
+salas.push(lab_frio_clima);
+salas.push(lab_insta_electrica);
+salas.push(lab_maquinas_electricas);
+salas.push(lab_metalomecanica);
+salas.push(lab_quimica);
+salas.push(lab_telecomunicacoes);
+salas.push(oficina_contru_mecanicas);
+salas.push(oficina_maquinas_motores);
+salas.push(oficina_soldadura);
 
 salvarNoLocalStorage();
 
