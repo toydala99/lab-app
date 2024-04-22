@@ -5,16 +5,13 @@
 }
 
 :root{
-    --bg-primary: hsl(237, 22%, 20%);
-    --fc-primary: hsl(250, 0%, 100%);
-    --fc-secondary: hsl(250, 50%, 80%);
-    --fc-secondary-dark: hsl(250, 100%, 11%) ;
     --bg-primary: #f4f4f4;
+    --tb-primary: #c4c4c4;
+    --tb-secondary: #aeaeae;
+    --btn-primary: #2B6AB5;
 
     font-size: 62.5%;
     --fs-body: 1.6rem;
-    --fs-heading: clamp(4rem, 1rem + 5vw, 5.6rem);
-    --fs-heading-sm: clamp(3rem, 0.5rem + 3vw, 4rem);
 
     font-family: Inter, sans-serif;
     font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
@@ -69,12 +66,12 @@ h1{
 .fl-table thead tr{
     color: #000;
     font-weight: bold;
-    background: #c4c4c4;
+    background: var(--tb-primary);
 }
 
 .fl-table tr {
-    background: #eaeaea;
-    border-bottom: 1px solid #c4c4c4;
+    background: var(--tb-secondary);
+    border-bottom: 1px solid var(--tb-primary);
 }
 
 input{
@@ -90,10 +87,10 @@ input{
     height: 6.8rem;
     cursor: pointer;
     margin-top: 2rem;
-    background-color: #2B6AB5;
-    color: var(--fc-primary);
+    background-color: var(--btn-primary);
+    color: white;
     font-size: 2.4rem;
     font-weight: 600;
     position: absolute;
-    right: 22.6rem;
+    margin-left: 72rem;
 }
